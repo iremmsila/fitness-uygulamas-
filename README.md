@@ -22,6 +22,7 @@ Kullanıcıların egzersiz hayatlarını kolaylaştıracak, yapacağı aktivitel
 Firebase sisteminde öncelikle “schedules” adında bir koleksiyon oluşturulmuştur. Burada kullanıcıların kayıt olurken aldıkları özel id değerleri ile koleksiyona kayıt edilmektedir. Böylece hem kullanıcı hem takvim bilgisi aynı id altında toplanmıştır.
 Takvim alanını kullanmak isteyen her kullanıcı için id değerleri altına “userSchedules” adında bir koleksiyon daha oluşturulmuş ve koleksiyon içinde her biri özel id değerleri olan takvime eklediği veriler ayrı ayrı kayıt edilmiştir.  
 Ekrana yansıtılırken bu veriler Firebase sisteminden okunup bir liste içine atılıyor ve liste bir map sistemine çevrildikten sonra veriler ayrıştırılmakta kullanıcının istediği saat ve tarih hizasında yerini almaktadır.
+
 ![image](https://github.com/user-attachments/assets/5caa93f5-41af-40b4-9305-26216b180cc6)
 
 ![image](https://github.com/user-attachments/assets/3a2061dc-9165-4d89-b76d-f7cc630fc444)
@@ -34,6 +35,7 @@ Ekrana yansıtılırken bu veriler Firebase sisteminden okunup bir liste içine 
 
 
 Firebase sistemine Kullanıcılara bildirim gönderimi yapıldı. İstenilen saat ve şekilde bildirim gönderimi yaparak kullanıcıya hatırlatmalar verilebilecek ve kullanıcıyla aktif bir iletişim gerçekleşecek. 
+
 ![image](https://github.com/user-attachments/assets/b4c3d63f-1147-49dd-8193-8ae9e4326073)
 
 ![image](https://github.com/user-attachments/assets/08eed32c-8a78-4ae8-bca7-3fca10e5b8d9)
