@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "425387400471",
+    "project_id": "saglik-takip-asistani",
+    "storage_bucket": "saglik-takip-asistani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425387400471:android:b7f494ecca4cbedc21eb52",
+        "android_client_info": {
+          "package_name": "com.example.saglikasistani"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDStHKBN2eV59HCmWLM1WPg8rvikMKdTVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
