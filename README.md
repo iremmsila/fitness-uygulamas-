@@ -14,12 +14,23 @@ kod satırı ile sağlanmıştır. Sonrasında alınan bilgiler
 email: email, password: password);”
 
  kod satırı ile kullanıcı kaydı yapılmıştır.
+
+-----
+“FirebaseFirestore _firestore = FirebaseFirestore.instance;
+await _firestore.collection("Users")
+    .doc(user.user?.uid)
+    .set({
+      'firstName' : firstname,
+      'lastName' : lastname,
+      'email' : email,
+      'password' : password,});”
+
+Kod bloğu ile firestore altyapısı kurularak “Users” isimli bir koleksiyon oluşturularak diğer bigiler bu alanlara kayıt olurken kullanıcıların aldıkları id üzerinden kayıt edilmiştir
+
                
 
 
-
-
-
+![aa](https://github.com/user-attachments/assets/a1886bad-8f3b-410d-ada6-9c5c316792ce)
 
 
 
@@ -54,7 +65,8 @@ Ekrana yansıtılırken bu veriler Firebase sisteminden okunup bir liste içine 
 ![image](https://github.com/user-attachments/assets/ef545df3-772a-41e4-a5c7-90f4d731a135)
 
 
-![image](https://github.com/user-attachments/assets/f2ab3ff6-9eb1-46d1-aaab-183c504a8bac)
+
+
 
 
 
