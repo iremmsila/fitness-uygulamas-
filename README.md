@@ -1,5 +1,7 @@
 Kullanıcıların egzersiz hayatlarını kolaylaştıracak, yapacağı aktiviteleri gün gün kayıt edebileceği bir ekran oluşturdum. Saat, antrenman, zorluk derecesi seçebilecekleri bir ekran ve beraberinde bunları görüntüleyebileceği bir ekran tasarladım. Bu kayıtlar firebase sisteminde tutulmakla birlikte geçmiş aktivitelerini de görüntüleyebilecekler.
 
+
+
 ---
 
 
