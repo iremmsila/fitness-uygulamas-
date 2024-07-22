@@ -1,5 +1,29 @@
 Kullanıcıların egzersiz hayatlarını kolaylaştıracak, yapacağı aktiviteleri gün gün kayıt edebileceği bir ekran oluşturdum. Saat, antrenman, zorluk derecesi seçebilecekleri bir ekran ve beraberinde bunları görüntüleyebileceği bir ekran tasarladım. Bu kayıtlar firebase sisteminde tutulmakla birlikte geçmiş aktivitelerini de görüntüleyebilecekler.
 
+
+
+![auth](https://github.com/user-attachments/assets/91936373-66db-41b9-98aa-d4710714f717)
+
+Kullanıcı girişi ve kayıt ekranı tasarlandı. Giriş ve kayıt ekranlarında “round_textfield.dart” dosyasını import ederek bu dosyada bulunan TextFormField widgetları kullanılarak kullanıcıdan veriler alınmıştır. Firebase bağlantısı 
+
+“final firebaseAuth = FirebaseAuth.instance;” 
+
+kod satırı ile sağlanmıştır. Sonrasında alınan bilgiler  
+
+ “ final userResult = await firebaseAuth.signInWithEmailAndPassword( 
+email: email, password: password);”
+
+ kod satırı ile kullanıcı kaydı yapılmıştır.
+               
+
+
+
+
+
+
+
+
+
 ![takvim](https://github.com/user-attachments/assets/a5087294-9689-4ce2-8e2a-e8c2aa915919)
 
 ![takvim2](https://github.com/user-attachments/assets/34d6c94d-2d86-4148-9002-e01153a29fa9)
