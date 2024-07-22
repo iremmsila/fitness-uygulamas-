@@ -33,6 +33,7 @@ Kod bloğu ile firestore altyapısı kurularak “Users” isimli bir koleksiyon
 ![aa](https://github.com/user-attachments/assets/a1886bad-8f3b-410d-ada6-9c5c316792ce)
 
 
+---
 
 
 ![takvim](https://github.com/user-attachments/assets/a5087294-9689-4ce2-8e2a-e8c2aa915919)
@@ -41,7 +42,7 @@ Kod bloğu ile firestore altyapısı kurularak “Users” isimli bir koleksiyon
 
 ![image](https://github.com/user-attachments/assets/b070fd46-8948-44e9-9863-719a8ac584df)
 
-
+---
 
 ![image](https://github.com/user-attachments/assets/67bb40b7-4aca-42cd-85d5-3c43016009b6)
 
@@ -52,7 +53,7 @@ Kod bloğu ile firestore altyapısı kurularak “Users” isimli bir koleksiyon
 ![image](https://github.com/user-attachments/assets/6711d14b-80aa-4502-9ae8-cc7844f3d686)
 
 
-
+---
 
 Firebase sisteminde öncelikle “schedules” adında bir koleksiyon oluşturulmuştur. Burada kullanıcıların kayıt olurken aldıkları özel id değerleri ile koleksiyona kayıt edilmektedir. Böylece hem kullanıcı hem takvim bilgisi aynı id altında toplanmıştır.
 Takvim alanını kullanmak isteyen her kullanıcı için id değerleri altına “userSchedules” adında bir koleksiyon daha oluşturulmuş ve koleksiyon içinde her biri özel id değerleri olan takvime eklediği veriler ayrı ayrı kayıt edilmiştir.  
@@ -66,7 +67,7 @@ Ekrana yansıtılırken bu veriler Firebase sisteminden okunup bir liste içine 
 
 
 
-
+---
 
 
 
