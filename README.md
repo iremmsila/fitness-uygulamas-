@@ -12,6 +12,7 @@ Kullanıcıların egzersiz hayatlarını kolaylaştıracak, yapacağı aktivitel
 
 
 
+
 ---
 
 ![auth](https://github.com/user-attachments/assets/91936373-66db-41b9-98aa-d4710714f717)
